@@ -4,6 +4,7 @@
 Erna Lukač
 
 # Deployed Link:
+https://ooernica.github.io/5WeekHomeworkDayPlanner/
 
 # User Story
 AS AN employee with a busy schedule
@@ -13,6 +14,8 @@ SO THAT I can manage my time effectively
 # Summary:
 
 # Built With 
+
+HTML, CSS, JavaScript
 
 # Acceptance Criteria:
 GIVEN I am using a daily planner to create a schedule

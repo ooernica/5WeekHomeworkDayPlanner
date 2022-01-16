@@ -26,25 +26,14 @@ $(function() {
 // // saves items typed in the scheduler to local storage 
 let saveaptInfo = [];
 
-// console.log(hour, description);
-
 $(".saveBtn").click(function() {
-    // if (localStorage.getItem("saveaptInfo") !== null) {
-    //     saveaptInfo = JSON.parse(localStorage.getItem('saveaptInfo'));
-        // let hour = $('.hour').text();
-        // let description = $('#7Note').val();
-    // // } else {
         saveaptInfo = [];
-        // saveaptInfo.push ({
-        // hour,description
-        // });
         for (let s = 0; s < workTime.length; s++) {
             let description = $(`#${workTime[s]}Note`).val();
             saveaptInfo.push (description)
         }
         console.log(saveaptInfo);
         localStorage.setItem("saveaptInfo",JSON.stringify(saveaptInfo))
-    // }
 });
 
 if (localStorage.getItem("saveaptInfo") !== null) {

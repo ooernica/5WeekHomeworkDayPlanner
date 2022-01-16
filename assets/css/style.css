@@ -65,11 +65,10 @@ body {
     color: white;
   }
   
-i {
-  margin-top: 30px;
-  margin-left: 23px;
-
-}
+  i {
+    margin-top: 30px;
+    margin-left: 23px;
+  }
 
   .saveBtn i:hover {
     font-size: 20px;

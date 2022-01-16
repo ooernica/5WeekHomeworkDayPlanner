@@ -1,6 +1,6 @@
 # Week 5 - Day Planner/Work Day Scheduler
 
-# Contributors:
+# By:
 Erna Lukač
 
 # Deployed Link:
@@ -33,5 +33,8 @@ HTML, CSS, JavaScript
 - THEN the saved events persist
 
 # Sources:
+
+# Contributors:
+CJ Sanders
 
 # Screenshot

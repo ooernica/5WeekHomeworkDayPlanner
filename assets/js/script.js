@@ -1,5 +1,8 @@
 const date = moment().format('dddd, MMM Do');
 
+// puts the current date on the page
+$("#currentDay").html(date);
+
 // declares possible times as an array so that they can be looped through
 const workTime = [7,8,9,10,11,12,13,14,15,16,17,18];
 
@@ -19,4 +22,19 @@ const compareTime = function() {
 $(function() {
     setInterval(compareTime,1000)
 });
+
+// // saves items typed in the scheduler to local storage 
+// let saveApt = [];
+// $(".saveBtn").click(function() {
+//     alert(hi!)}
+// //     if (localStorage.getItem("getApt") !== null) {
+// //         saveApt = JSON.parse(localStorage.getItem('saveApt'));
+// //         console.log(letApt)
+// //     } 
+// // });
+// //     let getApt = 
+// //     if (getApt) {
+
+// // }
+
 

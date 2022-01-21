@@ -13,6 +13,8 @@ https://ooernica.github.io/5WeekHomeworkDayPlanner/
 
 # Summary:
 
+CSS was already built. I built the framework of the page and made it able to change color to show past, current, and future hour, as well as save any notes and store it to localStorage.
+
 # Built With 
 
 HTML, CSS, JavaScript
@@ -31,8 +33,6 @@ HTML, CSS, JavaScript
 - THEN the text for that event is saved in local storage
 - WHEN I refresh the page
 - THEN the saved events persist
-
-# Sources:
 
 # Contributors:
 CJ Sanders

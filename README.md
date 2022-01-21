@@ -17,7 +17,7 @@ CSS was already built. I built the framework of the page and made it able to cha
 
 # Built With 
 
-HTML, CSS, JavaScript
+HTML, CSS, and JavaScript
 
 # Acceptance Criteria:
 - GIVEN I am using a daily planner to create a schedule

@@ -37,11 +37,9 @@ $(".saveBtn").click(function() {
 
 if (localStorage.getItem("saveaptInfo") !== null) {
     scheduler = JSON.parse(localStorage.getItem('saveaptInfo'));
-        console.log(scheduler);
     for (let l = 0; l < workTime.length; l++) {
         let displayApt = scheduler[l];
         $(`#${workTime[l]}Note`).val(displayApt);
     } 
 }
-
 

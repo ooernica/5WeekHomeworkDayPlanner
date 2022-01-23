@@ -11,9 +11,9 @@ const compareTime = function() {
     currentTime = moment().format('H');
     for (let i = 0; i < workTime.length; i++){
         if (currentTime > workTime[i]) {
-            $(`#${workTime[i]}Note`).attr('class','col-8 past')
+            $(`#${workTime[i]}Note`).attr('class','col-10 past')
         }else if (currentTime == workTime[i]) {
-            $(`#${workTime[i]}Note`).attr('class','col-8 present')
+            $(`#${workTime[i]}Note`).attr('class','col-10 present')
         }
     }
 }
@@ -32,7 +32,6 @@ $(".saveBtn").click(function() {
             let description = $(`#${workTime[s]}Note`).val();
             saveaptInfo.push (description)
         }
-        console.log(saveaptInfo);
         localStorage.setItem("saveaptInfo",JSON.stringify(saveaptInfo))
 });
 
@@ -41,7 +40,6 @@ if (localStorage.getItem("saveaptInfo") !== null) {
         console.log(scheduler);
     for (let l = 0; l < workTime.length; l++) {
         let displayApt = scheduler[l];
-        console.log(displayApt)
         $(`#${workTime[l]}Note`).val(displayApt);
     } 
 }

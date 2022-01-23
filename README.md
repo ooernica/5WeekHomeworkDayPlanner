@@ -38,3 +38,5 @@ HTML, CSS, and JavaScript
 CJ Sanders
 
 # Screenshot
+![ooernica github io_5WeekHomeworkDayPlanner_](https://user-images.githubusercontent.com/91104984/150689629-847dd56c-ba20-4ceb-8426-b820fdf761f5.png)
+
